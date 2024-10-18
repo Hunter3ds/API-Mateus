@@ -7,7 +7,7 @@ async function getWeatherByCity(city){
         const data = await response.json()
 
         if(response.ok){
-            document.querySelector('#weatherResult').innerHTML = `<p>O clima na cidade de ${city} é:  ${data.main.temp} com ${data.weather[0].description} </p>`
+            document.querySelector('#weatherResult').innerHTML = `<p>O clima na cidade de ${city} é:  ${data.main.temp}° com ${data.weather[0].description} </p>`
         }
     }
     catch(error){
