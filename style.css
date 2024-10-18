@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: rgb(179, 212, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+}
+.header>h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #0bb28e;
+}
+.main-weather{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.main-weather>input{
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: none;
+}
+.main-weather>input::placeholder{
+    color: #0bb28e;
+}
+.main-weather>input:focus{
+    outline: none;
+}
+.main-weather>button{
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    background-color: #0bb28e;
+    font-weight: 600;
+}
+#weatherResult{
+    width: 40%;
+    text-align: center;
+    
+}

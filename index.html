@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aplicativo de clima</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Aplicativo de clima</h1>
-    <p>Digite o nome de uma cidade</p>
-    <input type="text" id="city" placeholder="ex: São Paulo">
-    <button id="getWeather">Obter Clima</button>
+    <header class="header">
+        <h1>Aplicativo de clima</h1>
+        <p>Digite o nome de uma cidade</p>
+    </header>
+    <section class="main-weather">
+        <input type="text" id="city" placeholder="ex: São Paulo">
+        <button id="getWeather">Obter Clima</button>
+    </section>
     <div id="weatherResult"></div>
     <script src="script.js"></script>
-    <h1 class="h1"></h1>
+        
 </body>
 </html>
